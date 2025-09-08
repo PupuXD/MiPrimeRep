@@ -1,0 +1,23 @@
+h1 {
+    font-size: 35px;
+    background-color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+h2 {
+    font-size: 35px;
+    background-color:skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+
+table{
+    font-size: 35px;
+    background-color: rgb(red, green, blue);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color:brown;
+}
