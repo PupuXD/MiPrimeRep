@@ -16,16 +16,15 @@
         <a href="Todosobremipersona.html"  target="_blank" >TODO SOBRE MI PERSONA </a> 
     </nav>
  
-    <h1 id="presentacion"> BIENVENIDOS  al curso  </h1> 
+    <h1 id="presentacion"> BIENVENIDOS AL CURSO </h1> 
     <p> CURSO: LENGUAJE PARA EL DESARROLLO Y SOPORTE DE SISTEMAS
    </p>  <!-- el parrafo coloca un enter automatico    -->
 
-   <p> NOMBRE: JHON <br>
-       APELLIDO: BRAVO <br> <br>
-       DISTRITO: CERCADO DE LIMA
-        
+   <p> NOMBRE: JUAN DIEGO<br><br>
+       APELLIDO: PUIPULIVIA DIAZ<br><br>
+       DISTRITO: EL AGUSTINO
    </p>
-   <p> CARGO: INSTRUCTOR   </p>
+   <p> CARGO: ESTUDIANTE CERTUS   </p>
 
    <hr> 
    <h2> Evaluaciones del curso: </h2>
@@ -151,19 +150,16 @@
 
     <h2>USO DE FORMULARIO</h2>
     <form action="todosobremipersona.html" method="post">   
-        <p><label for="nombre"> Nombre: <input type:"text" id="nombre"></label></p>
-        <p><label for="apellido"> Apellido: <input type:"text" id="apellido"></label></p>
-        <p><label for="edad"> Edad: <input type:"text" id="edad"></label></p>
+        <p><label for="nombre"> Nombre: <input type="text" id="nombre" name="nombre" required autofocus></label></p>
+        <p><label for="apellido"> Apellido: <input type="text" id="apellido" name="apellido"></label></p>
+        <p><label for="edad"> Edad: <input type="number" id="edad" name="edad" min="18" max="80"></label></p>
         <p>
-            <label for="observacion"> Observacion:
+            <label for="observacion"> Observacion: <br>
                 <textarea name="observacion" id="observacion"
                     style="height:180px;width: 300px; font-size: 25px;">
                 </textarea>
             </label>
         </p>
-        <button type="submit" style="font-size: 25px;">ENVIAR</button>
-    </form>
-
     <p>
         <label for="estatura"> Estatura
             <select name="grupoestatura" id="estatura">
@@ -175,32 +171,18 @@
             </select>
         </label>
     </p>
-    <p> <label>CURSOS LLEVADOS </label> </p>
-    <br>
+    <p> <label>CURSOS LLEVADOS </label> <br><br>
         <input type="checkbox" name="cursos" value="matematica" id="matematica">  
         <label for="matematica">Matematica</label><br>
         <input type="checkbox" name="cursos" value="lenguaje DSS" id="LDSS">  
         <label for="LDSS">lenguaje DSS</label><br>
         <input type="checkbox" name="cursos" value="Introduccion investigacion" id="intro_invet">  
-        <label for="intro_invet">Introduccion investigacionMatematica</label><br>
+        <label for="intro_invet">Introduccion investigacion</label><br>
         <input type="checkbox" name="cursos" value="Nuevas Tendencias" id="nuevas_tendencias">  
-        <label for="nuevas_tendencia">Nuevas Tendencias</label><br>
+        <label for="nuevas_tendencia">Nuevas Tendencias</label><br><br>
+    </p>
 
-    <p><label>Ciclo actual</label></p>
-    <input style="scale: 1.5;" type="radio" name="ciclo" value="Primero" 
-    <label>Primero</label><br>
-    <input style="scale: 1.5;" type="radio" name="ciclo" value="Segundo" 
-    <label>Segundo</label><br>
-    <input style="scale: 1.5;" type="radio" name="ciclo" value="Tercero" 
-    <label>Tercero</label><br>
-    <input style="scale: 1.5;" type="radio" name="ciclo" value="Cuarto"> 
-    <label>Cuarto</label><br>
-    <input style="scale: 1.5;" type="radio" name="ciclo" value="Quinto"> 
-    <label>Quinto</label><br>
-    <input style="scale: 1.5;" type="radio" name="ciclo" value="Sexto">
-    <label>Sexto</label>
-
-    <p><label>Ciclo actual</label></p>
+    <p><label>CICLO ACTUAL</label> <br><br>
         <input style="scale: 1.5;" id="primero" type="radio" name="ciclo" value="primero"> 
         <label for="primero" >Primero</label><br>
         <input style="scale: 1.5;" id="segundo" type="radio" name="ciclo" value="segundo"> 
@@ -212,7 +194,32 @@
         <input style="scale: 1.5;" id="quinto" type="radio" name="ciclo" value="quinto"> 
         <label for="quinto">Quinto</label><br>
         <input style="scale: 1.5;" id="sexto" type="radio" name="ciclo" value="sexto"> 
-        <label for="sexto">Sexto</label>
+        <label for="sexto">Sexto</label> 
+    </p> <br>
+
+    <label for="fecha"> Selecciona Fecha: <br>
+        <input type="date" style="font-size: 25px;" name="fecha" id="fecha">
+    </label> <br><br>
+
+    <label for="correo"> Correo electronico: <br>
+        <input type="email" id="correo" name="correo" placeholder="abcdefg@gmail.com" pattern="[A-Za-z0-9]+@certus\.edu\.pe" required>
+    </label> <br><br>
+
+    <label for="clave"> Contraseña: <br>
+        <input type="password" id="clave" name="clave" minlength="8" maxlength="12">
+    </label> <br><br>
+
+    <label for="usuario"> Nombre de Usuario: <br>
+        <input type="text" id="usuario" name="usuario" minlength="5" maxlength="40" pattern="[A-Za-z0-9]+" required>
+    </label> <br><br>
+
+    <label for="resetear"> Limpiar: <br>
+        <input type="reset" id="resetear" name="resetear">
+    </label><br><br>
+
+    <button type="submit" style="font-size: 25px;">ENVIAR</button>
+    </form>
+
 </body>
 
 </html>
