@@ -8,9 +8,7 @@
     <link rel="stylesheet" type="text/css" href="Estilos2.css">
 
 </head>
-<body style="background-image: url(imagenes_Escudos/universitario.webp);
-    background-repeat: no-repeat; background-position: 50px;
-    background-attachment: fixed; background-size: 800px;">
+<body>
 
     <div class="contenedor">
         <header>
@@ -28,8 +26,10 @@
 
         <main>
             
-            <section>
-                <article>
+            <section  style="background-image: url(imagenes_Escudos/universitario.webp);
+            background-repeat: no-repeat; background-position: 50px;
+            background-attachment: fixed; background-size: 800px;">
+                <article >
                     <h2>ZAPATILLAS</h2>
                     <p>CATÁLOGO:</p>
                      <p>Zapatillas NIKe:</p>   
@@ -78,14 +78,58 @@
             </section>
             
             <aside>
-                <h3>ENLACES EXTERNOS</h3>
-                <p> <a href="https://www.nike.com.pe/home/" target="_blank"> NIKE </a> </p>
-                <p> <a href=""> FILA </a> </p>
-                <p> <a href=""> PUMA </a> </p>
-                <p> <a href=""> BATA </a> </p>
+                <h3 class="primera_letra">ENLACES EXTERNOS</h3>
+                <p> <a class="color_link" href="https://www.nike.com.pe/home/" target="_blank"> NIKE </a> </p>
+                <p> <a class="color_link" href=""> FILA </a> </p>
+                <p> <a class="color_link" href=""> PUMA </a> </p>
+                <p> <a class="color_link" href=""> BATA </a> </p>
 
             </aside>
         </main>
+
+    <section>
+
+        <article> <h2>POSICIONAMIENTO</h2><br>
+            
+            <h2>POSICIONAMIENTO STATIC</h2>
+
+            <div style="display: inline-block;">
+                <p class="clase_Static"> teXTO CON STATIC  </p>
+            </div>
+            <div style="display: inline-block;">
+                <p> 2do teXTO en misma linea</p>
+            </div>
+
+            <h2> POSICIONAMIENTO STATIC2 (SIN MARGIN_TOP) </h2>
+            <div style="display: inline-block;"> 
+                <p class="clase_Static2"> TEXTO CON STATIC </p>    
+            </div>
+            
+            <div style="display: inline-block;"> 
+                <p style="background-color: orange;" >
+                    2do texto en la misma linea
+                </p>
+            </div>
+
+            <h2>POSICIONAMIENTO RELATIVE</h2>
+            
+            <div style="display: inline-block" >
+                <p class="clase_Relative"> teXTO CON POSICIONAMIENTO RELATIVE 
+                    en un bloque inline --------------------------</p>
+                <img class="clase_Relative"
+                style="border: 9px dotted; color: rgb(253, 55, 29)"
+                src="imagenes_Escudos/cienciano.jpg"        alt="IMAGEN NO DISPONIBLE"
+                width="400"     height="341"
+            </div>
+
+            <div style="display: inline-block" >
+                <p> 2do teXTO en misma linea </P>
+            </div>
+
+        </article>
+    </section>
+
+
 
         <footer>
             <p>Derechos reservados &copy; 2025 - SHOES STORE </p>
