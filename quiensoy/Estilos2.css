@@ -197,3 +197,23 @@ article {
     justify-content: space-between;
 }
 
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+  gap: 200px; /* Espacio entre celdas */
+}
+
+.item img {
+     max-width: 100%; /* Para que no se desborde */
+}
+
+.item {
+ display: flex;
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 30px;
+   justify-content: center;  /* Centrar horizontalmente */
+  align-items: center;      /* Centrar verticalmente */
+}
