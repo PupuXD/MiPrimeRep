@@ -136,3 +136,64 @@ article {
     pointer-events: none;
     z-index: 999;
 }
+
+.bloque{
+    background-color: blue;
+    font-size: 20px;
+    margin: 20px;
+    color: aquamarine
+}
+
+.tipoinlineblock{
+    background-color: rgb(255,47,0);
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(127,255,185);
+    display:inline-block;
+    width: 500px;
+}
+
+.tiponone{
+    background-color: rgb(255,47,0);
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(127,255,185);
+    display:none;
+    width: 500px;
+}
+
+.tipohidden{
+    background-color: rgb(255,47,0);
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(127,255,185);
+    display:hidden;
+    width: 500px;
+}
+
+.tipoinlineblock{
+    background-color: rgb(255,47,0);
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(127,255,185);
+    display:inline-block;
+    width: 500px;
+}
+
+.enlinea{
+    background-color: red;
+    display: inline;
+    font-size: 30px;
+    margin: 2px;
+    color: beige;
+    width: 80px;
+    height: 40px;
+}
+
+.tipoflex {
+    display: flex;
+    background-color: rgb(0,204,255);
+    align-items: center;
+    justify-content: space-between;
+}
+
