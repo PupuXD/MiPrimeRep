@@ -121,3 +121,18 @@ article {
     left: 1300px;
 
 }
+
+.clase_Fixed{
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    left: 800px;
+    bottom: 0px;
+
+}
+
+.marcaagua{
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: 999;
+}
