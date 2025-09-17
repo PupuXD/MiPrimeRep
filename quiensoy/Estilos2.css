@@ -110,3 +110,14 @@ article {
     top: 100px;
     left: 100px;
 }
+
+.clase_Absolute{
+    font-size:20px ;
+    background-color: cornflowerblue;
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    top: 15px;
+    left: 1300px;
+
+}
